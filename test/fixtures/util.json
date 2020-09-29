@@ -164,7 +164,7 @@
         "-",
         []
       ],
-      "expected": ""
+      "expected": "123"
     },
     {
       "params": [
