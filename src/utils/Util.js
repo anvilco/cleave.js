@@ -105,11 +105,11 @@ var Util = {
         if (prevResult.slice(0, prefixLength) !== prefix && !tailPrefix) {
             // Check if the first time user entered something
             if (noImmediatePrefix && !prevResult && value) return value;
-            return '';
+            // return '';
         } else if (prevResult.slice(-prefixLength) !== prefix && tailPrefix) {
             // Check if the first time user entered something
             if (noImmediatePrefix && !prevResult && value) return value;
-            return '';
+            // return '';
         }
 
         var prevValue = this.stripDelimiters(prevResult, delimiter, delimiters);
